@@ -1,19 +1,19 @@
 {
-    "products":[
-        {
-            "id": 1,
-            "name": "Caneta Bic Preta",
-            "price": 5.89            
-        },
-        {
-            "id": 2,
-            "name": "Lapis Verde",
-            "price": 2.56
-        },
-        {
-            "id": 3,
-            "name": "MacBok Retina",
-            "price": 12000
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Sansungo Note",
+      "price": 2.56
+    },
+    {
+      "id": 2,
+      "name": "Lapis Verde",
+      "price": 2.56
+    },
+    {
+      "id": 3,
+      "name": "MacBok Retina",
+      "price": 12000
+    }
+  ]
 }
