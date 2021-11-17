@@ -10,6 +10,9 @@ import { NavComponent } from './components/templete/nav/nav.component';
 import { ThemesMatModule } from 'themesMat';
 import { HomeComponent } from './views/home/home.component';
 import { ProductComponent } from './views/product/product.component';
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ProductComponent } from './views/product/product.component';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductComponent
+    ProductComponent,
+    RedDirective,
+    ForDirective,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,

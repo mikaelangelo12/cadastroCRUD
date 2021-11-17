@@ -5,4 +5,10 @@
     <mat-card-subtitle class="subtitle">
         Sistema para exemplificar a construção de um Aplicativo 
     </mat-card-subtitle>
+    <ul>
+        <li *appFor="let n em [1,2,3]">{{n}}</li>
+    </ul>
+    <ul>
+        <li *appFor="let t txt ">{{t}}</li>
+    </ul>
 </mat-card>
