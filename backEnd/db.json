@@ -29,6 +29,23 @@
       "name": "Ediane ",
       "price": "Feia",
       "id": 8
-    } 
+    },
+    {
+      "name": "",
+      "price": 0,
+      "id": 9
+    },
+    {
+      "name": "qqweqw",
+      "price": "012121",
+      "avatar": "",
+      "id": 10
+    },
+    {
+      "name": "asdsa",
+      "price": "012323",
+      "avatar": "C:\\fakepath\\macOS-Catalina-Dark-Mode(1).jpg",
+      "id": 11
+    }
   ]
 }

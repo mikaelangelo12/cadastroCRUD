@@ -12,10 +12,10 @@ export class ProductCreateComponent implements OnInit {
 
   product: Product = {
     name: '',
-    price: 0
+    price: 0,
+    avatar: ''
   }
 
-  adributoLegal = "qualquer" 
   
   constructor(private productService: ProductService, private router: Router) { }
 
@@ -32,11 +32,13 @@ export class ProductCreateComponent implements OnInit {
   alertMenssageCreate(){
     this.productService.alertMensage(`Cadastrado com sucesso!`)
   }
-  
+
   alertMenssageCancel(){
     this.router.navigate(['/products'])
   }
 
+
+ 
 
 
 }

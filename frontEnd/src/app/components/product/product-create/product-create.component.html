@@ -1,12 +1,14 @@
 <mat-card>
     <mat-card-title>Novo Produto</mat-card-title>
-    <form method="post">
+    <form>
         <mat-form-field>
             <input matInput placeholder="Nome do Produto" name="name" [(ngModel)]="product.name">
         </mat-form-field>
         <mat-form-field>
             <input matInput placeholder="Preço do Produto (R$)" name="price" [(ngModel)]="product.price">
         </mat-form-field>
+  
+            <input type="file" id="avatar" name="avatar" [(ngModel)]="product.avatar" accept="image/png, image/jpeg">
 
     </form>
 
