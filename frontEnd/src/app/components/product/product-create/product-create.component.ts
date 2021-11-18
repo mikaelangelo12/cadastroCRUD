@@ -22,23 +22,21 @@ export class ProductCreateComponent implements OnInit {
   ngOnInit(): void {
     
   }
-  fazerAlgo(): void {
-    console.log('Fazer algo')
-  }
-
-  alertMenssageCreate(){
-    this.productService.alertMensage(`Cadastrado com sucesso!`)
-  }
-  alertMenssageCancel(){
-    this.router.navigate(['/products'])
-  }
-
   createProduct():void{
     this.productService.create(this.product).subscribe(()=>{
       this.alertMenssageCreate()
       this.router.navigate(['/products'])
     })
-
   }
+
+  alertMenssageCreate(){
+    this.productService.alertMensage(`Cadastrado com sucesso!`)
+  }
+  
+  alertMenssageCancel(){
+    this.router.navigate(['/products'])
+  }
+
+
 
 }

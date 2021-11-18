@@ -14,6 +14,21 @@
       "id": 3,
       "name": "MacBok Retina",
       "price": 12000
-    }
+    },
+    {
+      "name": "Monitor Ultrawide",
+      "price": "3000",
+      "id": 6
+    },
+    {
+      "name": "Carro Vermelho",
+      "price": "1233",
+      "id": 7
+    },
+    {
+      "name": "Ediane ",
+      "price": "Feia",
+      "id": 8
+    } 
   ]
 }

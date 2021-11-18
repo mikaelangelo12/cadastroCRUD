@@ -14,6 +14,7 @@ import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     ThemesMatModule,
     AppRoutingModule,
+    FormsModule,
     BrowserAnimationsModule,
     HttpClientModule
   ],
